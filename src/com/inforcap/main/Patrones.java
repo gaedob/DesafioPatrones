@@ -30,9 +30,27 @@ public class Patrones {
 
     static void patron2(int n) {
 
-    }
+        for (int i = 1;i <= n; i++){
+            if (i % 2 == 0) {
+                System.out.print("1234");
+            }else {
+                System.out.print("1234");
+            }
+        }
+        System.out.println();
 
+    }
+  
     static void patron3(int n) {
+
+        for (int i = 1;i <= n; i++){
+            if (i % 2 == 0) {
+                System.out.print("*");
+            }else {
+                System.out.print("||");
+            }
+        }
+        System.out.println();
 
     }
 }
